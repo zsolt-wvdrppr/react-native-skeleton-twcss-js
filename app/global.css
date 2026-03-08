@@ -7,7 +7,7 @@
 }
 
 .screen-nav-link {
-  @apply px-3 py-1 border border-c-dark bg-c-dark w-fit text-c-bright rounded-lg active:scale-95 transition-all;
+  @apply px-3 py-1 border text-lg border-c-dark bg-c-dark w-fit text-c-bright rounded-lg active:scale-95 transition-all;
 }
 
 .screen-nav-label {

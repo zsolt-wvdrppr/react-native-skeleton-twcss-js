@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-app-sceleton-with-nativewid",
-    "slug": "react-app-sceleton-with-nativewid",
+    "name": "react-app-skeleton-with-nativewind",
+    "slug": "react-app-skeleton-with-nativewind",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -23,7 +23,8 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro"
     },
     "plugins": [
       "expo-router",
@@ -42,7 +43,7 @@
     ],
     "experiments": {
       "typedRoutes": true,
-      "reactCompiler": true
+      "reactCompiler": false
     }
   }
 }

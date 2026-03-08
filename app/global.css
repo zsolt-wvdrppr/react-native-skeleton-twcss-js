@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.screen-title {
+  @apply text-5xl text-center py-3 text-c-dark font-semibold;
+}
+
+.screen-nav-link {
+  @apply px-3 py-1 border border-c-dark bg-c-dark w-fit text-c-bright rounded-lg active:scale-95 transition-all;
+}
+
+.screen-nav-label {
+  @apply font-semibold;
+}

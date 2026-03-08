@@ -1,50 +1,65 @@
-# Welcome to your Expo app 👋
+# React Native Skeleton (Expo + NativeWind, JavaScript)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This repository is a skeleton React Native project built with Expo and Expo Router.
 
-## Get started
+It is preconfigured with:
 
-1. Install dependencies
+- NativeWind (Tailwind-style utility classes for React Native)
+- File-based routing via Expo Router
+- JavaScript-only setup (no TypeScript required)
 
-   ```bash
-   npm install
-   ```
+## Tech Stack
 
-2. Start the app
+- React Native
+- Expo
+- Expo Router
+- NativeWind
+- Tailwind CSS
 
-   ```bash
-   npx expo start
-   ```
+## Project Goal
 
-In the output, you'll find options to open the app in a
+Use this repo as a clean starting point for new mobile projects where you want:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Fast setup
+- Utility-first styling with NativeWind
+- JavaScript workflow without TypeScript overhead
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Getting Started
 
-## Get a fresh project
-
-When you're ready, run:
+1. Install dependencies:
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Start the development server:
 
-## Learn more
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+You can then open the app on:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Android emulator/device
+- iOS simulator/device
+- Expo Go
+- Web
 
-## Join the community
+## Scripts
 
-Join our community of developers creating universal apps.
+- `npm run start` - Start Expo
+- `npm run android` - Start Expo for Android
+- `npm run ios` - Start Expo for iOS
+- `npm run web` - Start Expo for Web
+- `npm run lint` - Run linting
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Styling Notes
+
+- Global styles live in `app/global.css`
+- Tailwind/NativeWind config lives in `tailwind.config.js`
+- Use `className` on React Native components for NativeWind utilities
+
+## Routing Notes
+
+- Routes are file-based in the `app/` directory
+- Shared layout and stack config is in `app/_layout.jsx`

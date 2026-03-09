@@ -36,7 +36,9 @@ export default function RootLayout() {
       </Stack>
       <StatusBar
         style={isDarkMode ? "light" : "dark"}
-        backgroundColor={isDarkMode ? APP_COLORS["c-dark"] : "#ffffff"}
+        backgroundColor={
+          isDarkMode ? APP_COLORS["c-dark"] : APP_COLORS["c-bright"]
+        }
         translucent={false}
       />
     </SafeAreaProvider>
